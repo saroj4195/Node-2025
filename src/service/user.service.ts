@@ -7,7 +7,11 @@ export class UserService {
     this.userRepository = new UserRepository();
   }
 
-  getUsers() {
-    return this.userRepository.fetchUsers();
+  async getUsers() {
+    return await this.userRepository.fetchUsers();
+  }
+
+  async addUser(userData: { name: string; email: string }) {
+    return await this.userRepository.createUser(userData);
   }
 }

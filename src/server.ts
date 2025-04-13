@@ -1,13 +1,15 @@
 import express from "express";
 import userRoutes from "./routes/user.route"
+import { connectDB } from "./config/db";
 
-const app = express();// "./routes/user.routes";
+const app = express();
 app.use(express.json());
 
-// Use Routes
+connectDB();  // connect to MongoDB
+
 app.use("/api/users", userRoutes);
 
 const PORT = 3000;
 app.listen(PORT, () => {
-  console.log(`Server is running on port ${PORT}`);
+  console.log(`Server running on port ${PORT}`);
 });

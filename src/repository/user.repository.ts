@@ -1,11 +1,19 @@
+import mongoose from "mongoose";
+
+const userSchema = new mongoose.Schema({
+  name: { type: String, required: true },
+  email: { type: String, required: true }
+});
+
+const UserModel = mongoose.model("User", userSchema);
+
 export class UserRepository {
-    private users = [
-      { id: 1, name: "John Doe" },
-      { id: 2, name: "Jane Doe" }
-    ];
-  
-    fetchUsers() {
-      return this.users;
-    }
+  async fetchUsers() {
+    return await UserModel.find();
   }
-  
+
+  async createUser(userData: { name: string; email: string }) {
+    const user = new UserModel(userData);
+    return await user.save();
+  }
+}
