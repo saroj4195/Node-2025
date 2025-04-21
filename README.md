@@ -353,3 +353,132 @@ Day 81-90: Project Development and Review
     Day 90: Deployment and Documentation
 
     Deploy the project and write clear documentation
+
+
+Basic Node.js Questions
+
+    What is Node.js, and how is it different from traditional server-side programming languages like PHP?
+
+    Explain the event-driven architecture in Node.js.
+
+    What is the Node.js Event Loop, and how does it work?
+
+    What are the key features of Node.js?
+
+    What is npm, and what are its basic commands?
+
+    What is the role of the require() function in Node.js?
+
+    What is the difference between process.nextTick(), setImmediate(), and setTimeout() in Node.js?
+
+    How does Node.js handle non-blocking I/O?
+
+    What are Node.js streams? Can you give examples?
+
+    What are callbacks in Node.js, and how do they work?
+
+    What is the purpose of the fs module in Node.js?
+
+    Explain how you can handle errors in Node.js applications.
+
+    What is the role of middleware in Express.js?
+
+    Explain the difference between synchronous and asynchronous functions in Node.js.
+
+🔨 Intermediate Node.js Questions
+
+    How do you handle multiple requests in Node.js?
+
+    What is the purpose of the cluster module in Node.js, and how does it improve performance?
+
+    What is Express.js? How does it simplify Node.js development?
+
+    What is the difference between a GET and a POST request in Node.js?
+
+    How can you handle file uploads in Node.js?
+
+    What is CORS, and how can you handle it in Node.js?
+
+    Explain the difference between req.query and req.params in Express.
+
+    What is the purpose of a routing table in an Express app?
+
+    How can you use Node.js to connect to a MongoDB database?
+
+    What are Mongoose and how does it help with MongoDB operations?
+
+    Explain the concept of middleware chaining in Express.js.
+
+    What are the different ways to store sessions in Node.js?
+
+    What is JWT, and how do you implement authentication in a Node.js application using JWT?
+
+    How do you handle authentication and authorization in Node.js applications?
+
+🚀 Advanced Node.js Questions
+
+    What are the best practices for error handling in Node.js?
+
+    Explain the concept of Promises and Async/Await in Node.js.
+
+    What is event delegation in Node.js?
+
+    How can you optimize the performance of a Node.js application?
+
+    What are WebSockets, and how can you implement real-time communication in Node.js using Socket.IO?
+
+    What is the role of the v8 engine in Node.js?
+
+    What is the difference between process.nextTick() and setImmediate()?
+
+    What is a Memory Leak in Node.js, and how can you prevent it?
+
+    What are microservices, and how would you implement a Node.js microservice?
+
+    How do you implement background job processing in Node.js?
+
+    What is the purpose of Redis, and how can it be integrated into a Node.js application?
+
+    How does the Node.js stream module work? Give examples.
+
+    What is the purpose of using clusters in Node.js applications?
+
+    How would you secure a Node.js application?
+
+    What are the differences between SQL and NoSQL databases?
+
+    How can you implement a Node.js application with a relational database (e.g., PostgreSQL)?
+
+    Explain the concepts of rate-limiting and throttling in an API.
+
+    What are GraphQL APIs, and how would you implement them in Node.js?
+
+    How do you handle API versioning in a Node.js app?
+
+    What is the async_hooks module in Node.js, and when would you use it?
+
+    What is a worker thread in Node.js?
+
+    How do you deploy a Node.js application to cloud platforms like AWS, Heroku, or Google Cloud?
+
+⚡ System Design Questions for Node.js
+
+    How would you design a scalable Node.js application?
+
+    What would you include in the architecture of a Node.js-based e-commerce platform?
+
+    How do you ensure the reliability of a Node.js application in production?
+
+    How would you scale a Node.js application to handle a large volume of requests?
+
+    What are the various strategies to handle state in a Node.js application (e.g., for user sessions)?
+
+    How do you design a logging system for a large Node.js application?
+
+    How would you handle long-running processes or queues in a Node.js application?
+
+    What would be your approach to building an API gateway in Node.js?
+
+    How would you build a recommendation engine in a Node.js application?
+
+    How do you implement data synchronization in a Node.js application for real-time updates (e.g., using WebSockets or REST)?
