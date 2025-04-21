@@ -346,4 +346,10 @@ Day 81-90: Project Development and Review
 
     Day 86-88: Implement Advanced Features (e.g., file uploads, search)
 
-    Day 89
+    Day 89: Final Project Review
+
+    Refactor, clean up, and optimize the code
+
+    Day 90: Deployment and Documentation
+
+    Deploy the project and write clear documentation
