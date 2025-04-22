@@ -587,6 +587,7 @@ Absolutely yes — in fact, agentic AI is perfect for this use case. You can bui
 
 Here’s a suggested Agent Framework for Bookingjini’s GHC Optimization:
 🤖 AURA Agent System for GHC Excellence
+
 Agent Name	Primary Responsibility	Frequency	How It Works
 🧠 Pricing Sync Agent	Ensures GHC price is always lower than OTA price by $1–$2	Every 3–6 hours	Fetch OTA prices via scraper/API → compare with hotel price → auto-update GHC price
 🔍 Price Accuracy Audit Agent	Validates that Google Hotel Ads prices match Booking Engine	Daily	Run test bookings via GHC deeplink → compare final price on Booking Engine
